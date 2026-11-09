@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-config
+data: 
+  GREETING: 'hello again'
+  index.html: |
+    <h1>your NEW heading here</h1>
+    <p>new text</p>
